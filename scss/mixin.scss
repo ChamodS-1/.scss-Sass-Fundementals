@@ -1,0 +1,28 @@
+@import './colors';
+
+
+@mixin flex($direction){
+    display: flex;
+    justify-content: space-between;
+    flex-direction: $direction;
+    
+}
+
+@mixin media($size){
+    @media(max-width: 600px){
+        display: none;
+    }
+}
+
+
+@mixin lightTheme($light-theme){
+
+    @if $light-theme{
+        background-color: $manin4;
+
+    }
+    @else{
+        background-color: $manin5;
+    }
+    
+}

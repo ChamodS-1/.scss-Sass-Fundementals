@@ -1,0 +1,48 @@
+@import './colors';
+@import './variables';
+@import './fuctions';
+@import './mixin';
+
+body{
+    background-color: $manin;
+    margin: 0;
+
+    @include lightTheme(false);
+   
+}
+
+.main{
+
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500;
+
+    @include flex(column);
+
+    @include media(600px);
+   
+
+    #{&}_test{
+        color: $manin2;
+        font-weight: weight('bold');
+
+        &:hover{
+            color: $manin3;
+            
+        }
+    }
+
+    #{&}_test1{
+
+        @extend .main_test;
+
+        &:hover{
+            color: $manin4;
+        }
+    }
+    
+}
+
+
+

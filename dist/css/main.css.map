@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,IAAI,CAAA;EACA,gBAAgB,ECNZ,OAAiB;EDOrB,MAAM,EAAE,CAAC;EIiBL,gBAAgB,EHpBf,OAAiB;CDOzB;;AAED,AAAA,KAAK,CAAA;EAED,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EIdhB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,cAAc,EJcA,MAAM;CAwBvB;;AIjCG,MAAM,EAAC,SAAS,EAAE,KAAK;EJE3B,AAAA,KAAK,CAAA;IIDG,OAAO,EAAE,IAAI;GJgCpB;;;AA/BD,AAYI,KAZC,CAYD,UAAU,EAZd,KAAK,CAsBD,WAAW,CAVF;EACL,KAAK,ECzBJ,OAAgB;ED0BjB,WAAW,EEzBZ,GAAG;CF+BL;;AApBL,AAgBQ,KAhBH,CAYD,UAAU,AAIL,MAAM,EAhBf,KAAK,CAsBD,WAAW,AANN,MAAM,CAAA;EACH,KAAK,EC5BR,OAAiB;CD8BjB;;AAnBT,AA0BQ,KA1BH,CAsBD,WAAW,AAIN,MAAM,CAAA;EACH,KAAK,ECrCR,OAAiB;CDsCjB",
+    "sources": [
+        "../../scss/main.scss",
+        "../../scss/_colors.scss",
+        "../../scss/variables.scss",
+        "../../scss/fuctions.scss",
+        "../../scss/mixin.scss",
+        "../../scss/_colors.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
